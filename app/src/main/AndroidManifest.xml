@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SejarahIndonesia">
-        <activity android:name=".Level1"></activity>
+        <activity android:name=".Level1Done"></activity>
+        <activity android:name=".Level1" />
         <activity android:name=".level" />
         <activity android:name=".MenuUtama" />
         <activity android:name=".MainActivity">

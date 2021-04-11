@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bglevel1"
+    tools:context=".Level1Done">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/luarbiasa"/>
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="200dp"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/soal1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KERJA RODI"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Sejarah"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:textSize="8pt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Lanjut"
+        android:layout_gravity="center"
+        android:textSize="10pt"/>
+</LinearLayout>

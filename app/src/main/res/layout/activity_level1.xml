@@ -26,6 +26,7 @@
         android:layout_marginTop="80dp">
 
         <Button
+            android:id="@+id/buttonSoal1"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_marginRight="30dp"
