@@ -11,8 +11,12 @@
         android:theme="@style/Theme.SejarahIndonesia">
         <activity android:name=".Level1Done"></activity>
         <activity android:name=".Level1" />
+        <activity android:name=".Bantuan"/>
+        <activity android:name=".Soal1Level1"/>
         <activity android:name=".level" />
         <activity android:name=".MenuUtama" />
+        <activity android:name=".Pengaturan"/>
+        <activity android:name=".Skor"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

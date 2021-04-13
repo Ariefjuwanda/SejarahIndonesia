@@ -30,8 +30,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:layout_gravity="center"
-        android:layout_marginTop="240dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="202px"
         android:layout_marginLeft="58dp">
         <ImageButton
             android:id="@+id/buttonPengaturan"
@@ -40,7 +40,7 @@
             android:scaleType="center"
             android:src="@drawable/butpengaturan"
             android:background="@color/white"
-            android:gravity="bottom" />
+            android:gravity="center_horizontal" />
         <ImageButton
             android:id="@+id/buttonPiala"
             android:layout_width="50dp"

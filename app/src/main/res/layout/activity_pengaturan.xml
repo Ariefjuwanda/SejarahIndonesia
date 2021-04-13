@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    tools:context=".Pengaturan">
+
+    <ImageButton
+        android:id="@+id/buttonkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/abc_vector_test" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/risque"
+        android:textColor="@color/black"
+        android:text="Pengaturan"
+        android:textSize="36dp" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/et_bg"
+        android:orientation="horizontal"
+        app:lineHeight="30sp">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:src="@drawable/musik"
+           android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/roboto"
+            android:text="Musik"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/pengaturan"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/et_bg"
+        android:orientation="horizontal"
+        app:lineHeight="30sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/musik"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/roboto"
+            android:text="Suara"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/pengaturan"/>
+    </LinearLayout>
+
+</LinearLayout>

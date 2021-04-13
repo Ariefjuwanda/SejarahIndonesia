@@ -31,5 +31,26 @@ public class MenuUtama extends AppCompatActivity  {
                 startActivity(new Intent(MenuUtama.this,level.class));
             }
         });
+
+        btnHelp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuUtama.this, Bantuan.class));
+            }
+        });
+
+        btnPengaturan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuUtama.this, Pengaturan.class));
+            }
+        });
+
+        btnPiala.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuUtama.this, Skor.class));
+            }
+        });
     }
 }

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    tools:context=".Skor">
+
+    <ImageButton
+        android:id="@+id/buttonkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/abc_vector_test" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/risque"
+        android:textColor="@color/black"
+        android:text="Skor"
+        android:textSize="36dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/et_bg"
+        android:orientation="vertical"
+        app:lineHeight="30sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="36dp"
+            android:drawableRight="@drawable/star"
+            android:fontFamily="@font/roboto"
+            android:text="Total Skor  :     200"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="15dp"
+            android:drawableRight="@drawable/star"
+            android:fontFamily="@font/roboto"
+            android:text="Level 1       :       70"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="15dp"
+            android:drawableRight="@drawable/star"
+            android:fontFamily="@font/roboto"
+            android:text="Level 2       :       80"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="15dp"
+            android:drawableRight="@drawable/star"
+            android:fontFamily="@font/roboto"
+            android:text="Level 3       :       50"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+    </LinearLayout>
+</LinearLayout>
